@@ -6,7 +6,7 @@
 4. **Sujatha R Upadhyaya*** <br/>
 *Centre of Data Sciences & Applied Machine Learning, PES University, Bangalore, India
 
-## Methodology 
+## Our Implementation 
 1. Refinement of Pre-trained frozen weight matrix using [Bondarenko et. al's LRQAT](https://arxiv.org/abs/2406.06385)
 2. Training of LoRA adapters & Quantisation parameters over the simulated quantisation grid.
 3. Fusing LoRA adapters with the frozen weight matrix to generate a full-precision merged model.
