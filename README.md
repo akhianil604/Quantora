@@ -7,7 +7,7 @@
 *Centre of Data Sciences & Applied Machine Learning, PES University, Bangalore, India
 
 ## Our Implementation 
-1. Refinement of Pre-trained frozen weight matrix using [Bondarenko et. al's LRQAT](https://arxiv.org/abs/2406.06385)
+1. Refinement of Pre-trained frozen weight matrix using [LR-QAT](https://arxiv.org/abs/2406.06385)
 2. Training of LoRA adapters & Quantisation parameters over the simulated quantisation grid.
 3. Fusing LoRA adapters with the frozen weight matrix to generate a full-precision merged model.
 4. Progressive quantisation of merged model to BF16, INT8 & NF4 precisions.
