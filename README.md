@@ -1,9 +1,9 @@
 # Elemental Adaptation of Low-Rank Quantisation-Aware Training for Large Language Models on NLP Tasks
 ## Authors
-1. Akhilesh Anil*
-2. Chinmay Shivanand Muragod*
-3. Vinod G R*
-4. Sujatha R Upadhyaya*
+1. **Akhilesh Anil***
+2. **Chinmay Shivanand Muragod***
+3. **Vinod G R***
+4. **Sujatha R Upadhyaya*** <br/>
 *Centre of Data Sciences & Applied Machine Learning, PES University, Bangalore, India
 
 ## Methodology 
@@ -13,6 +13,6 @@
 4. Progressive quantisation of merged model to BF16, INT8 & NF4 precisions.
 
 ## Experimental Setup
-Platform for Training & Evaluation used: Google Colab's Nvidia 15 GB T4 GPU.<br/>
-Datasets: SST-2 & QNLI tasks from GLUE benchmark dataset.<br/>
-Models: GPT-2 Medium (355 M parameters) & BERT-Base-Uncased (110 M parameters)<br/>
+*Platform for Training & Evaluation used*: Google Colab's Nvidia 15 GB T4 GPU.<br/>
+*Datasets*: SST-2 & QNLI tasks from GLUE benchmark dataset.<br/>
+*Models*: GPT-2 Medium (355 M parameters) & BERT-Base-Uncased (110 M parameters)<br/>
