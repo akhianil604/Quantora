@@ -1,3 +1,18 @@
 # Elemental Adaptation of Low-Rank Quantisation-Aware Training for Large Language Models on NLP Tasks
-Main Repository for LLM Compression using Low-Rank Quantisation-Aware Training using GLUE Benchmark for CDSAML Summer Research Internship 2025.
-"# QuantoraAI" 
+## Authors
+1. Akhilesh Anil*
+2. Chinmay Shivanand Muragod*
+3. Vinod G R*
+4. Sujatha R Upadhyaya*
+*Centre of Data Sciences & Applied Machine Learning, PES University, Bangalore, India
+
+## Methodology 
+1. Refinement of Pre-trained frozen weight matrix using [Bondarenko et. al's LRQAT](https://arxiv.org/abs/2406.06385)
+2. Training of LoRA adapters & Quantisation parameters over the simulated quantisation grid.
+3. Fusing LoRA adapters with the frozen weight matrix to generate a full-precision merged model.
+4. Progressive quantisation of merged model to BF16, INT8 & NF4 precisions.
+
+## Experimental Setup
+Platform for Training & Evaluation used: Google Colab's Nvidia 15 GB T4 GPU.
+Datasets: SST-2 & QNLI tasks from GLUE benchmark dataset.
+Models: GPT-2 Medium (355 M parameters) & BERT-Base-Uncased (110 M parameters)
