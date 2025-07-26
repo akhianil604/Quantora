@@ -1,4 +1,4 @@
-# Elemental Adaptation of LR-QAT for LLMs on NLP Tasks
+# Elemental LR-QAT for LLMs on NLP Tasks
 ## Authors
 1. **Akhilesh Anil***
 2. **Chinmay Shivanand Muragod***
@@ -7,9 +7,9 @@
 *Centre of Data Sciences & Applied Machine Learning, PES University, Bangalore, India
 
 ## Our Implementation 
-1. Render Pre-trained frozen weight matrix using [LR-QAT](https://arxiv.org/abs/2406.06385)
-2. Training of LoRA adapters & Quantisation parameters over the quantisation grid.
-3. Fusion of LoRA adapters with the frozen weight matrix to generate a full-precision merged model.
+1. Render pre-trained frozen weight matrix using [LR-QAT](https://arxiv.org/abs/2406.06385)
+2. LoRA adapter & Quantisation parameter training.
+3. Merged model formation using frozen weight matrix & trainable parameters
 4. Progressive quantisation of merged model to BF16, INT8 & NF4 precisions.
 
 ## Experimental Setup
