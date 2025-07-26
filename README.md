@@ -4,7 +4,7 @@
 2. **Chinmay Shivanand Muragod***
 3. **Vinod G R***
 4. **Sujatha R Upadhyaya*** <br/>
-*Centre of Data Sciences & Applied Machine Learning, PES University, Bangalore, India
+*Centre of Data Science & Applied Machine Learning, PES University, Bangalore, India
 
 ## Our Implementation 
 1. Render pre-trained frozen weight matrix using [LR-QAT](https://arxiv.org/abs/2406.06385)
